@@ -9,61 +9,38 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>The Best Groups Webpage</h1>
 
         <p className='description'>
-          Get started by editing <code>src/pages/index.js</code> to be your
-          project home page.
+          This is the webpage created for the group of people including Graham Blocher, Kyle Thengvall, Mason Stubbs, and Alex Fan.
         </p>
-        <p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/TomHolland ' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+          <a href='/Graham ' className='card'>
+            <h3>Graham Blocher's Page &rarr;</h3>
+            <p>Here is my about me page!</p>
           </a>
 
           <a
-            href='https://github.com/vedant29/Project-CSCI-1000'
+            href='/KyleThengvall'
             className='card'>
-            <h3>Project Resources&rarr;</h3>
-            <p>
-              Return to the Github for resources on creating your own website!
-            </p>
+            <h3>Kyle Thengvall's Page &rarr;</h3>
+            <p>Here is my about me page!</p>
           </a>
           <a
-            href='https://nextjs.org/learn/foundations/about-nextjs'
+            href='/MasonStubbs'
             className='card'>
-            <h3>Next.js&rarr;</h3>
-            <p>Click here to learn more about Next.js</p>
+            <h3>Mason Stubbs's Page &rarr;</h3>
+            <p>Here is my about me page!</p>
           </a>
-          <a href='https://blog.hubspot.com/website/html' className='card'>
-            <h3>HTML and CSS &rarr;</h3>
-            <p>Click here to learn more about HTML and CSS</p>
+          <a href='/AlexFan' className='card'>
+            <h3>Alex Fan's Page' &rarr;</h3>
+            <p>Here is my about me page!</p>
           </a>{' '}
-          <a href='https://tailwindcss.com/' className='card'>
-            <h3>Tailwind css&rarr;</h3>
-            <p>Click here to learn more about tailwind css</p>
-          </a>
-          <a href='https://styled-components.com/' className='card'>
-            <h3>Styled Components&rarr;</h3>
-            <p>Click here to learn more about Styled Components</p>
-          </a>
-          <a href='https://www.netlify.com/' className='card'>
-            <h3>Netlify&rarr;</h3>
-            <p>Click here to learn more about Netlify to host your website</p>
-          </a>
         </div>
       </main>
 
       <footer>
-        <a href='' target='_blank' rel='noopener noreferrer'>
-          Copyright CSCI 1000 2023
-        </a>
       </footer>
 
       <style jsx>{`
@@ -155,7 +132,6 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-
           max-width: 800px;
           margin-top: 3rem;
         }
@@ -165,9 +141,9 @@ export default function Home() {
           flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
-          color: inherit;
+          background-color: orange;
           text-decoration: none;
-          border: 1px solid #eaeaea;
+          border: 2px solid #000000;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
