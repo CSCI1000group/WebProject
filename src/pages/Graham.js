@@ -6,7 +6,7 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Howdy folks, I'm Graham'. </h1>
+            <h1 className='title'>Howdy folks, I'm Graham. </h1>
           </div>
           <img
             className='pic'
@@ -114,7 +114,7 @@ export default function examplePage() {
           body {
             padding: 0;
             margin: 0;
-            background-color: #0033FF;
+            background-color: #0070f3;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
               sans-serif;
