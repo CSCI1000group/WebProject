@@ -6,16 +6,16 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hi, I'm Alex Fan. </h1>
+            <h1 className='title'>Hello, I'm Alex Fan. </h1>
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            src='https://i.postimg.cc/2y4brjk5/image.png'
+            alt='Alex Fan'
           />
 
           <p className='description'>
-            Hi, my name is Alex Fan and i'm a freshman in computer science at CU Boulder. Outside of class, I like playing video games, watching and playing sports, and hanging out with my friends.
+          Hi, my name is Alex Fan, and I'm a freshman majoring in computer science at CU Boulder. Outside of class, I like playing video games, watching and playing sports like basketball and football, and hanging out with my friends.
           </p>
 
           <a className='button' href='/'>
