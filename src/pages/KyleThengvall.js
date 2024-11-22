@@ -11,8 +11,8 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            src='https://postimg.cc/qhFQr0cj'
+            alt='Kyle Thengvall'
           />
 
           <p className='description'>
