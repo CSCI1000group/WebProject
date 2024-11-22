@@ -6,21 +6,16 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Howdy folks, I'm Graham. </h1>
+            <h1 className='title'>Hey! The name's Mason, nice to meet you!. </h1>
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/9f405R2Y/1724897888563.jpg'
-            alt='Graham Blocher'
+            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
+            alt='tom holland'
           />
 
           <p className='description'>
-                    Hey folks, I'm an aspiring software developer making a page for my CSCI1000 class. I was born and raised here in colorful Colorado, and decided I was interested in CS when I was probably around 13.
-                    I have a few hobbies which include working on classic cars, playing video games, and ultimate frisbee. I also like classic rock and working on computers.
-          </p>
-
-          <p className="description2">
-                    And yes blue is my favorite color
+           How goes it? My name's Mason, and I'm a Freshman CSCI student at University of Colorado Boulder. Some of my other interests are video games, digital art, and my 2 dogs.
           </p>
 
           <a className='button' href='/'>
@@ -61,11 +56,6 @@ export default function examplePage() {
           }
 
           .description {
-            line-height: 1.5;
-            font-size: 1.5rem;
-          }
-
-          .description2 {
             line-height: 1.5;
             font-size: 1.5rem;
           }
@@ -114,7 +104,6 @@ export default function examplePage() {
           body {
             padding: 0;
             margin: 0;
-            background-color: #0070f3;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
               Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
               sans-serif;
